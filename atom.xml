@@ -6,7 +6,7 @@
   <link href="https://xunchufrd.github.io/atom.xml" rel="self"/>
   
   <link href="https://xunchufrd.github.io/"/>
-  <updated>2025-05-04T02:09:28.390Z</updated>
+  <updated>2025-05-04T05:45:28.943Z</updated>
   <id>https://xunchufrd.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test123</title>
+    <link href="https://xunchufrd.github.io/test123/"/>
+    <id>https://xunchufrd.github.io/test123/</id>
+    <published>2025-05-04T05:44:36.000Z</published>
+    <updated>2025-05-04T05:45:28.943Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
