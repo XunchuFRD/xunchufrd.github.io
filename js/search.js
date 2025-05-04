@@ -3,7 +3,7 @@ let searchData;
 function loadData(arg) {
     if (!searchData) {
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', '/content.json', true);
+        xhr.open('GET', '/blog/content.json', true);
         xhr.onload = function() {
             if (this.status >= 200 && this.status < 300) {
                 const res = JSON.parse(this.response || this.responseText);
