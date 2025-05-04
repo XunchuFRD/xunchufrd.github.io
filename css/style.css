@@ -658,7 +658,7 @@ font.douyin {
 #nexmoe-background .nexmoe-bg {
   opacity: 0.2;
   background-size: cover;
-  filter: blur(30px);
+  filter: blur(2px);
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -1293,7 +1293,6 @@ body {
 }
 .nexmoe #nexmoe-content .nexmoe-primary {
   box-shadow: 0 0 1rem var(--color-shadow);
-  background-color: var(--color-card);
   float: left;
   width: 100%;
   padding: 24px;
