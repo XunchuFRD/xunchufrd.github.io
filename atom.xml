@@ -6,7 +6,7 @@
   <link href="https://xunchufrd.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://xunchufrd.github.io/blog/"/>
-  <updated>2025-05-04T08:54:38.403Z</updated>
+  <updated>2025-05-04T09:25:14.404Z</updated>
   <id>https://xunchufrd.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xunchufrd.github.io/blog/newtest/"/>
     <id>https://xunchufrd.github.io/blog/newtest/</id>
     <published>2025-05-04T07:39:22.000Z</published>
-    <updated>2025-05-04T08:54:38.403Z</updated>
+    <updated>2025-05-04T09:25:14.404Z</updated>
     
     
       
@@ -34,6 +34,12 @@
     
     
     
+    <category term="随记" scheme="https://xunchufrd.github.io/blog/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+    <category term="资源下载" scheme="https://xunchufrd.github.io/blog/tags/%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="说明" scheme="https://xunchufrd.github.io/blog/tags/%E8%AF%B4%E6%98%8E/"/>
     
   </entry>
   
