@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>CnSywFRD&#39;s blog</title>
+  <title>椛的联络站</title>
   
-  
+  <subtitle>易爆蓝焰</subtitle>
   <link href="https://xunchufrd.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://xunchufrd.github.io/blog/"/>
-  <updated>2025-05-05T04:17:05.951Z</updated>
+  <updated>2025-05-05T05:11:10.785Z</updated>
   <id>https://xunchufrd.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xunchufrd.github.io/blog/intro/"/>
     <id>https://xunchufrd.github.io/blog/intro/</id>
     <published>2025-05-04T07:39:22.000Z</published>
-    <updated>2025-05-05T04:17:05.951Z</updated>
+    <updated>2025-05-05T05:11:10.785Z</updated>
     
     
       
