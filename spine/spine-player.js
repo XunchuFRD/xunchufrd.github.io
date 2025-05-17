@@ -1,8 +1,7 @@
 // 全局配置
 const spine_model_path = "https://xunchufrd.github.io/blog/spine/models/";
 var MODELS = [ // 模型列表
-    "model_1",
-    "model_2", // 可用模型列表
+    "model_1", // 可用模型列表
 ];
 var DEFAULT_ANIMATION = "Relax"; // 默认动画
 var SKIN_NAME = "default"; // 皮肤名称
