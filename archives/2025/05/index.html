@@ -20,15 +20,15 @@
 <link rel="stylesheet" href="/blog/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/blog/lib/iconfont/iconfont.css?v=1747485603205">
+<link rel="stylesheet" href="/blog/lib/iconfont/iconfont.css?v=1747524807395">
 
-<link rel="stylesheet" href="/blog/css/style.css?v=1747485603205">
+<link rel="stylesheet" href="/blog/css/style.css?v=1747524807395">
 
 
 
 
     
-        <link rel="stylesheet" href="/blog/custom.css?v=1747485603205">
+        <link rel="stylesheet" href="/blog/custom.css?v=1747524807395">
     
 
 
@@ -38,7 +38,7 @@
 <script src="/blog/lib/lax.min.js" async></script>
 
 
-<script async src="/blog/js/app.js?v=1747485603205"></script>
+<script async src="/blog/js/app.js?v=1747524807395"></script>
 
  
 
@@ -54,7 +54,22 @@
 
 
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
-<link rel="stylesheet" href="https://xunchufrd.github.io/blog/css/custom.css"/><script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/blog/atom.xml" title="椛的联络站" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<link rel="stylesheet" href="https://xunchufrd.github.io/blog/css/custom.css"/><script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script><!-- hexo injector head_end start -->
+  <script>
+    // 检测是否为移动设备
+    function isMobileDevice() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // 如果不是移动设备，则加载 CSS 文件
+    if (!isMobileDevice()) {
+      const spineCSS = document.createElement("link");
+      spineCSS.rel = "stylesheet";
+      spineCSS.href = "https://xunchufrd.github.io/blog/spine/spine-widget.css";
+      document.head.appendChild(spineCSS);
+    }
+  </script>
+  <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/blog/atom.xml" title="椛的联络站" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head><body class="nexmoe mdui-drawer-body-left"><div id="pageContent"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://xunchufrd.github.io/blog/cover/12.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/blog/" title="CnSywFRD" data-pjax><img src="https://xunchufrd.github.io/blog/images/avatar.png" alt="CnSywFRD"></a></div></div></div></div><div id="pageContent" data-pjax-container><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="nexmoe-avatar mdui-ripple">
         <a href="/blog/" title="CnSywFRD">
@@ -122,7 +137,7 @@
 </div>
 
 
-	<script async src="/blog/js/search.js?v=1747485603206"></script>
+	<script async src="/blog/js/search.js?v=1747524807397"></script>
 
 
 
@@ -396,4 +411,37 @@
                                     }
                                 });
                             });
-                        </script><script src="/blog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/blog/live2dw/assets/miku.model.json"},"display":{"position":"right","width":180,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body></html>
+                        </script><!-- hexo injector body_end start -->
+  <script>
+    // 检测是否为移动设备
+    function isMobileDevice() {
+      // 通过 userAgent 检测常见的移动设备
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // 如果不是移动设备，则加载 Spine 小部件
+    if (!isMobileDevice()) {
+      const spineWidget = document.createElement("div");
+      spineWidget.id = "spine-widget";
+      spineWidget.innerHTML = '<canvas id="spine-canvas"></canvas>';
+      document.body.appendChild(spineWidget);
+
+      // 动态加载 Spine 运行时库
+      const spineScript = document.createElement("script");
+      spineScript.src = "https://xunchufrd.github.io/blog/spine/spine-webgl.js";
+      spineScript.async = true;
+      spineScript.onload = function() {
+        // Spine 运行时库加载完成后，初始化 Spine 小部件
+        const canvas = document.getElementById("spine-canvas");
+        canvas.width = 300;
+        canvas.height = 300;
+
+        // 初始化 Spine 动画逻辑
+        const spineLogicScript = document.createElement("script");
+        spineLogicScript.src = "https://xunchufrd.github.io/blog/spine/spine-player.js";
+        document.body.appendChild(spineLogicScript);
+      };
+      document.body.appendChild(spineScript);
+    }
+  </script>
+  <!-- hexo injector body_end end --><script src="/blog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/blog/live2dw/assets/miku.model.json"},"display":{"position":"right","width":180,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body></html>
