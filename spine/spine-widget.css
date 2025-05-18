@@ -3,8 +3,8 @@
     position: fixed;
     bottom: 12px;
     right: 0;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: rgba(0,0,0,0);
     overflow: hidden;
     cursor: pointer;

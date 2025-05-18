@@ -3,7 +3,7 @@ const spine_model_path = "https://xunchufrd.github.io/blog/spine/models/";
 var MODELS = [ // 模型列表
     "build_char_017_huang_witch_5",
     "build_char_017_huang", // 可用模型列表
-	"char_017_huang_as_1",
+	"build_char_017_huang_as_1",
 	"build_char_1040_blaze2",
 ];
 var DEFAULT_ANIMATION = "Relax"; // 默认动画
