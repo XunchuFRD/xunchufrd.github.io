@@ -6,7 +6,7 @@
   <link href="https://xunchufrd.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://xunchufrd.github.io/blog/"/>
-  <updated>2025-05-18T06:47:32.031Z</updated>
+  <updated>2025-05-18T07:43:12.679Z</updated>
   <id>https://xunchufrd.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>博客添加spine模型避坑指南【FRD 02】</title>
+    <link href="https://xunchufrd.github.io/blog/spineModel/"/>
+    <id>https://xunchufrd.github.io/blog/spineModel/</id>
+    <published>2025-05-18T06:56:24.000Z</published>
+    <updated>2025-05-18T07:43:12.679Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://xunchufrd.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="前端" scheme="https://xunchufrd.github.io/blog/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo新版nexmoe主题加入aplayer 引入pjax防止切换页面刷新【FRD 01】</title>
     <link href="https://xunchufrd.github.io/blog/aplayerWithPjax/"/>
     <id>https://xunchufrd.github.io/blog/aplayerWithPjax/</id>
     <published>2025-05-18T05:51:13.000Z</published>
-    <updated>2025-05-18T06:47:32.031Z</updated>
+    <updated>2025-05-18T06:53:07.443Z</updated>
     
     
       
