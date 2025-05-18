@@ -1,5 +1,5 @@
 // 全局配置
-const spine_model_path = "https://xunchufrd.github.io/blog/spine/";
+const spine_model_path = "https://xunchufrd.github.io/blog/spine/models/";
 var MODELS = [ // 模型列表
     "model_1", // 替换为其他模型名称
 ];
