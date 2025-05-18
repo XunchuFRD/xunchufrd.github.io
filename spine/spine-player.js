@@ -1,11 +1,12 @@
 // 全局配置
 const spine_model_path = "https://xunchufrd.github.io/blog/spine/models/";
 var MODELS = [ // 模型列表
-    "model_1", // 替换为其他模型名称
+    "build_char_017_huang_witch_5",
+    "build_char_017_huang", // 可用模型列表
 ];
 var DEFAULT_ANIMATION = "Relax"; // 默认动画
 var SKIN_NAME = "default"; // 皮肤名称
-var PREMULTIPLIED_ALPHA = true; // 是否启用 Premultiplied Alpha
+var PREMULTIPLIED_ALPHA = true; // 是否启用 Premultiplied Alpha（请注意，自《明日方舟》v2.1.41 起，新增的模型在渲染时需要禁用 Premultiplied Alpha，否则可能导致Alpha图层纹理异常。）
 var NUM_SKELETONS = 1; // 渲染的骨架数量
 var SCALE = 0.4; // 缩放比例
 var RANDOM_MODEL = true; // 是否启用随机模型
@@ -227,7 +228,7 @@ function resize() {
     }
 
     // 更新 MVP 矩阵
-    mvp.ortho2d(-(w / 2) - 20, 0 - 150, w, h);
+    mvp.ortho2d(-(w / 2) - 20, 0 - 150, w, h);  // 这里需要根据模型的动作进行合理修改
     gl.viewport(0, 0, w, h);
 }
 
