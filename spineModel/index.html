@@ -26,15 +26,15 @@
 <link rel="stylesheet" href="/blog/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/blog/lib/iconfont/iconfont.css?v=1747554203374">
+<link rel="stylesheet" href="/blog/lib/iconfont/iconfont.css?v=1748007308968">
 
-<link rel="stylesheet" href="/blog/css/style.css?v=1747554203374">
+<link rel="stylesheet" href="/blog/css/style.css?v=1748007308968">
 
 
 
 
     
-        <link rel="stylesheet" href="/blog/custom.css?v=1747554203374">
+        <link rel="stylesheet" href="/blog/custom.css?v=1748007308968">
     
 
 
@@ -44,7 +44,7 @@
 <script src="/blog/lib/lax.min.js" async></script>
 
 
-<script async src="/blog/js/app.js?v=1747554203374"></script>
+<script async src="/blog/js/app.js?v=1748007308968"></script>
 
  
 
@@ -143,7 +143,7 @@
 </div>
 
 
-	<script async src="/blog/js/search.js?v=1747554203376"></script>
+	<script async src="/blog/js/search.js?v=1748007308970"></script>
 
 
 
@@ -438,7 +438,7 @@
 </div>
   
   
-    <script async src="/blog/js/copy-codeblock.js?v=1747554203320"></script>
+    <script async src="/blog/js/copy-codeblock.js?v=1748007308903"></script>
   
 
 
@@ -513,5 +513,13 @@
       };
       document.body.appendChild(spineScript);
     }
+
+    //mdui_pjax
+    document.addEventListener('pjax:success', function() {
+      if (typeof mdui !== 'undefined') {
+      $('.mdui-overlay').remove();
+        mdui.mutation();
+      }
+    });
   </script>
   <!-- hexo injector body_end end --><!-- hexo-inject:begin --><!-- hexo-inject:end --></body></html>
