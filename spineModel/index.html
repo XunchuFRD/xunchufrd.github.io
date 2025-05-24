@@ -13,28 +13,28 @@
 <meta property="og:site_name" content="椛的联络站">
 <meta property="og:description" content="前言心血来潮想给网页右下角添加明日方舟小人模型，我知道明日方舟的模型是基于spine3.8的 在Hexo博客里放一只明日方舟小人的SpineModel中提供了详细教程，发布日期也很近，但我依然在操作过程中遇到了麻烦，因此分享一下避坑经验 注意：本教程需要你拥有spine 3.8.x软件，学习版请自己上网查找 正文我的目录结构 此教程通过scripts文件夹下的文件利用hexo自带的劫持功能实现 除">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/02/01.png">
-<meta property="og:image" content="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/02/02.png">
+<meta property="og:image" content="https://xunchufrd.github.io/workimg/02/01.png">
+<meta property="og:image" content="https://xunchufrd.github.io/workimg/02/02.png">
 <meta property="article:published_time" content="2025-05-18T06:56:24.000Z">
-<meta property="article:modified_time" content="2025-05-24T13:29:58.826Z">
+<meta property="article:modified_time" content="2025-05-24T22:50:52.051Z">
 <meta property="article:author" content="CnSywFRD">
 <meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/02/01.png">
+<meta name="twitter:image" content="https://xunchufrd.github.io/workimg/02/01.png">
 
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748093665525">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748127080000">
 
-<link rel="stylesheet" href="/css/style.css?v=1748093665525">
+<link rel="stylesheet" href="/css/style.css?v=1748127080000">
 
 
 
 
     
-        <link rel="stylesheet" href="/custom.css?v=1748093665525">
+        <link rel="stylesheet" href="/custom.css?v=1748127080000">
     
 
 
@@ -44,7 +44,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1748093665525"></script>
+<script async src="/js/app.js?v=1748127080000"></script>
 
  
 
@@ -58,7 +58,7 @@
 
 
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
-<link rel="stylesheet" href="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/css/custom.css"/><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/jquery.min.js"></script><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/pjax.min.js"></script><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/APlayer.min.js"></script><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/Meting.min.js"></script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="/css/custom.css"/><script src="/js/jquery.min.js"></script><script src="/js/pjax.min.js"></script><script src="/js/APlayer.min.js"></script><script src="/js/Meting.min.js"></script><!-- hexo injector head_end start -->
   <script>
     // 检测是否为移动设备
     function isMobileDevice() {
@@ -69,15 +69,15 @@
     if (!isMobileDevice()) {
       const spineCSS = document.createElement("link");
       spineCSS.rel = "stylesheet";
-      spineCSS.href = "https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/spine/spine-widget.css";
+      spineCSS.href = "/spine/spine-widget.css";
       document.head.appendChild(spineCSS);
     }
   </script>
   <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="椛的联络站" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-</head><body class="nexmoe mdui-drawer-body-left"><div id="pageContent"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/cover/12.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="CnSywFRD" data-pjax><img src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/images/avatar.png" alt="CnSywFRD"></a></div></div></div></div><div id="pageContent" data-pjax-container><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
+</head><body class="nexmoe mdui-drawer-body-left"><div id="pageContent"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(/cover/12.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="CnSywFRD" data-pjax><img src="/images/avatar.png" alt="CnSywFRD"></a></div></div></div></div><div id="pageContent" data-pjax-container><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="nexmoe-avatar mdui-ripple">
         <a href="/" title="CnSywFRD">
-            <img src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/images/avatar.png" alt="CnSywFRD" alt="CnSywFRD">
+            <img src="/images/avatar.png" alt="CnSywFRD" alt="CnSywFRD">
         </a>
     </div>
     <div class="nexmoe-count">
@@ -141,7 +141,7 @@
 </div>
 
 
-	<script async src="/js/search.js?v=1748093665526"></script>
+	<script async src="/js/search.js?v=1748127080002"></script>
 
 
 
@@ -370,7 +370,7 @@
   <article>
     
         <div class="nexmoe-post-cover absolute" style="padding-top: NaN%;"> 
-            <img src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/cover/03.png" alt="博客添加spine模型避坑指南【FRD 02】" loading="lazy">
+            <img src="/cover/03.png" alt="博客添加spine模型避坑指南【FRD 02】" loading="lazy">
             <h1>博客添加spine模型避坑指南【FRD 02】</h1>
         </div>
     
@@ -396,11 +396,11 @@
     <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>心血来潮想给网页右下角添加明日方舟小人模型，我知道明日方舟的模型是基于spine3.8的</p>
 <p><a target="_blank" rel="noopener" href="https://rimrose.top/SpineModel/">在Hexo博客里放一只明日方舟小人的SpineModel</h1></a>中提供了详细教程，发布日期也很近，但我依然在操作过程中遇到了麻烦，因此分享一下避坑经验</p>
 <p>注意：本教程需要你拥有spine 3.8.x软件，学习版请自己上网查找</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="我的目录结构"><a href="#我的目录结构" class="headerlink" title="我的目录结构"></a>我的目录结构</h2><p><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/02/01.png" alt="目录结构" data-caption="目录结构" loading="lazy"></p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="我的目录结构"><a href="#我的目录结构" class="headerlink" title="我的目录结构"></a>我的目录结构</h2><p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/02/01.png" alt="目录结构" data-caption="目录结构" loading="lazy"></p>
 <p>此教程通过scripts文件夹下的文件利用hexo自带的劫持功能实现</p>
 <p>除了模型文件，其他的在前言部分的文章中均已提供</p>
 <h2 id="文件处理"><a href="#文件处理" class="headerlink" title="文件处理"></a>文件处理</h2><p>models文件夹下面的文件需要去prts.wiki下</p>
-<p>具体方法是加载网页，F12打开开发工具，网络选项卡，点击页面的载入模型按钮，即可看到相关文件，双击即可下载下来<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/02/02.png" alt="开发工具" data-caption="开发工具" loading="lazy"></p>
+<p>具体方法是加载网页，F12打开开发工具，网络选项卡，点击页面的载入模型按钮，即可看到相关文件，双击即可下载下来<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/02/02.png" alt="开发工具" data-caption="开发工具" loading="lazy"></p>
 <p>避坑点1：2025.04后明日方舟所有的<strong>基建</strong>模型都更新了，atlas对不上png文件，在使用spine解包纹理时会出错，你需要手动缩放png文件，或前往<a target="_blank" rel="noopener" href="https://github.com/isHarryh/Ark-Models/">Arknights Spine Models (Excerpt) | 明日方舟Spine动画小人模型(节选) </a>下载已经处理完毕的png文件</p>
 <p>避坑点2：下载下来的文件名不要改，github下下来的png文件名有可能是修改过的，你需要改回prtswiki下下来的文件名，因为spine的纹理图集和贴图文件名是绑定的</p>
 <p>理论上来讲此时已经可以直接把这些文件扔进去了，但是我这边会出现部分贴图错误的问题</p>
@@ -437,7 +437,7 @@
 </div>
   
   
-    <script async src="/js/copy-codeblock.js?v=1748093665504"></script>
+    <script async src="/js/copy-codeblock.js?v=1748127079934"></script>
   
 
 
@@ -497,7 +497,7 @@
 
       // 动态加载 Spine 运行时库
       const spineScript = document.createElement("script");
-      spineScript.src = "https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/spine/spine-webgl.js";
+      spineScript.src = "/spine/spine-webgl.js";
       spineScript.async = true;
       spineScript.onload = function() {
         // Spine 运行时库加载完成后，初始化 Spine 小部件
@@ -507,7 +507,7 @@
 
         // 初始化 Spine 动画逻辑
         const spineLogicScript = document.createElement("script");
-        spineLogicScript.src = "https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/spine/spine-player.js";
+        spineLogicScript.src = "/spine/spine-player.js";
         document.body.appendChild(spineLogicScript);
       };
       document.body.appendChild(spineScript);

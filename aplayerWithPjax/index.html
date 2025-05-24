@@ -13,27 +13,27 @@
 <meta property="og:site_name" content="椛的联络站">
 <meta property="og:description" content="前言加入aplayer（metingJS）实现在网页右下角添加播放器后，出现了切换页面刷新后音乐中断，进度丢失的问题，进而需要引入pjax实现切换页面不刷新 参考来源：Aplayer+MetingJS+Pjax&#x3D;网“页”云音乐 但是文章中使用layout布局文件是完整的ejs文件，而新版的nexmoe主题（大约是4.1.5后）已经将其拆分成了多个文件，其中layout变成了jsx文件，目">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/01/01.png">
+<meta property="og:image" content="https://xunchufrd.github.io/workimg/01/01.png">
 <meta property="article:published_time" content="2025-05-18T05:51:13.000Z">
-<meta property="article:modified_time" content="2025-05-24T13:29:14.026Z">
+<meta property="article:modified_time" content="2025-05-24T22:50:14.041Z">
 <meta property="article:author" content="CnSywFRD">
 <meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/01/01.png">
+<meta name="twitter:image" content="https://xunchufrd.github.io/workimg/01/01.png">
 
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748093665408">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748127080009">
 
-<link rel="stylesheet" href="/css/style.css?v=1748093665408">
+<link rel="stylesheet" href="/css/style.css?v=1748127080009">
 
 
 
 
     
-        <link rel="stylesheet" href="/custom.css?v=1748093665408">
+        <link rel="stylesheet" href="/custom.css?v=1748127080009">
     
 
 
@@ -43,7 +43,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1748093665408"></script>
+<script async src="/js/app.js?v=1748127080009"></script>
 
  
 
@@ -57,7 +57,7 @@
 
 
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
-<link rel="stylesheet" href="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/css/custom.css"/><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/jquery.min.js"></script><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/pjax.min.js"></script><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/APlayer.min.js"></script><script src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/js/Meting.min.js"></script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="/css/custom.css"/><script src="/js/jquery.min.js"></script><script src="/js/pjax.min.js"></script><script src="/js/APlayer.min.js"></script><script src="/js/Meting.min.js"></script><!-- hexo injector head_end start -->
   <script>
     // 检测是否为移动设备
     function isMobileDevice() {
@@ -68,15 +68,15 @@
     if (!isMobileDevice()) {
       const spineCSS = document.createElement("link");
       spineCSS.rel = "stylesheet";
-      spineCSS.href = "https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/spine/spine-widget.css";
+      spineCSS.href = "/spine/spine-widget.css";
       document.head.appendChild(spineCSS);
     }
   </script>
   <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="椛的联络站" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-</head><body class="nexmoe mdui-drawer-body-left"><div id="pageContent"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/cover/12.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="CnSywFRD" data-pjax><img src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/images/avatar.png" alt="CnSywFRD"></a></div></div></div></div><div id="pageContent" data-pjax-container><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
+</head><body class="nexmoe mdui-drawer-body-left"><div id="pageContent"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(/cover/12.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="CnSywFRD" data-pjax><img src="/images/avatar.png" alt="CnSywFRD"></a></div></div></div></div><div id="pageContent" data-pjax-container><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="nexmoe-avatar mdui-ripple">
         <a href="/" title="CnSywFRD">
-            <img src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/images/avatar.png" alt="CnSywFRD" alt="CnSywFRD">
+            <img src="/images/avatar.png" alt="CnSywFRD" alt="CnSywFRD">
         </a>
     </div>
     <div class="nexmoe-count">
@@ -140,7 +140,7 @@
 </div>
 
 
-	<script async src="/js/search.js?v=1748093665410"></script>
+	<script async src="/js/search.js?v=1748127080012"></script>
 
 
 
@@ -369,7 +369,7 @@
   <article>
     
         <div class="nexmoe-post-cover absolute" style="padding-top: NaN%;"> 
-            <img src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/cover/02.png" alt="hexo新版nexmoe主题加入aplayer 引入pjax防止切换页面刷新【FRD 01】" loading="lazy">
+            <img src="/cover/02.png" alt="hexo新版nexmoe主题加入aplayer 引入pjax防止切换页面刷新【FRD 01】" loading="lazy">
             <h1>hexo新版nexmoe主题加入aplayer 引入pjax防止切换页面刷新【FRD 01】</h1>
         </div>
     
@@ -394,7 +394,7 @@
 
     <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>加入aplayer（metingJS）实现在网页右下角添加播放器后，出现了切换页面刷新后音乐中断，进度丢失的问题，进而需要引入pjax实现切换页面不刷新</p>
 <p>参考来源：<a target="_blank" rel="noopener" href="https://631212502.github.io/2021/10/05/Aplayer-MetingJS-Pjax-%E7%BD%91%E2%80%9C%E9%A1%B5%E2%80%9D%E4%BA%91%E9%9F%B3%E4%B9%90/">Aplayer+MetingJS+Pjax&#x3D;网“页”云音乐</a></p>
-<p>但是文章中使用layout布局文件是完整的ejs文件，而新版的nexmoe主题（大约是4.1.5后）已经将其拆分成了多个文件，其中layout变成了jsx文件，目录结构也有所改变<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/workimg/01/01.png" alt="目录结构" data-caption="目录结构" loading="lazy"></p>
+<p>但是文章中使用layout布局文件是完整的ejs文件，而新版的nexmoe主题（大约是4.1.5后）已经将其拆分成了多个文件，其中layout变成了jsx文件，目录结构也有所改变<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/01/01.png" alt="目录结构" data-caption="目录结构" loading="lazy"></p>
 <p>经过尝试已经完成修改并成功完成，（大）部分代码来源于Deepseek，简单做一下分享</p>
 <h1 id="修改部分"><a href="#修改部分" class="headerlink" title="修改部分"></a>修改部分</h1><p>以下文件都在<code>/你的博客/node_modules/hexo-theme-nexmoe/layout/</code>中</p>
 <h2 id="layout-jsx"><a href="#layout-jsx" class="headerlink" title="layout.jsx"></a>layout.jsx</h2><p>由于包含跳转页面的代码在layout.jsx中，因此无法使用hexo自带的劫持功能，需要修改layout.jsx</p>
@@ -432,7 +432,7 @@
 </div>
   
   
-    <script async src="/js/copy-codeblock.js?v=1748093665355"></script>
+    <script async src="/js/copy-codeblock.js?v=1748127079936"></script>
   
 
 
@@ -492,7 +492,7 @@
 
       // 动态加载 Spine 运行时库
       const spineScript = document.createElement("script");
-      spineScript.src = "https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/spine/spine-webgl.js";
+      spineScript.src = "/spine/spine-webgl.js";
       spineScript.async = true;
       spineScript.onload = function() {
         // Spine 运行时库加载完成后，初始化 Spine 小部件
@@ -502,7 +502,7 @@
 
         // 初始化 Spine 动画逻辑
         const spineLogicScript = document.createElement("script");
-        spineLogicScript.src = "https://pub-cd3774bf9b534032bbb4c35830587f66.r2.dev/spine/spine-player.js";
+        spineLogicScript.src = "/spine/spine-player.js";
         document.body.appendChild(spineLogicScript);
       };
       document.body.appendChild(spineScript);
