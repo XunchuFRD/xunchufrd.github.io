@@ -3,11 +3,11 @@
   <title>椛的联络站</title>
   
   <subtitle>易爆蓝焰</subtitle>
-  <link href="https://xunchufrd.github.io/blog/atom.xml" rel="self"/>
+  <link href="https://xunchufrd.github.io/atom.xml" rel="self"/>
   
-  <link href="https://xunchufrd.github.io/blog/"/>
-  <updated>2025-05-18T07:43:12.679Z</updated>
-  <id>https://xunchufrd.github.io/blog/</id>
+  <link href="https://xunchufrd.github.io/"/>
+  <updated>2025-05-24T04:11:23.866Z</updated>
+  <id>https://xunchufrd.github.io/</id>
   
   <author>
     <name>CnSywFRD</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>博客添加spine模型避坑指南【FRD 02】</title>
-    <link href="https://xunchufrd.github.io/blog/spineModel/"/>
-    <id>https://xunchufrd.github.io/blog/spineModel/</id>
+    <link href="https://xunchufrd.github.io/spineModel/"/>
+    <id>https://xunchufrd.github.io/spineModel/</id>
     <published>2025-05-18T06:56:24.000Z</published>
-    <updated>2025-05-18T07:43:12.679Z</updated>
+    <updated>2025-05-24T04:11:23.866Z</updated>
     
     
       
@@ -34,19 +34,19 @@
     
     
     
-    <category term="教程" scheme="https://xunchufrd.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xunchufrd.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="前端" scheme="https://xunchufrd.github.io/blog/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xunchufrd.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>hexo新版nexmoe主题加入aplayer 引入pjax防止切换页面刷新【FRD 01】</title>
-    <link href="https://xunchufrd.github.io/blog/aplayerWithPjax/"/>
-    <id>https://xunchufrd.github.io/blog/aplayerWithPjax/</id>
+    <link href="https://xunchufrd.github.io/aplayerWithPjax/"/>
+    <id>https://xunchufrd.github.io/aplayerWithPjax/</id>
     <published>2025-05-18T05:51:13.000Z</published>
-    <updated>2025-05-18T06:53:07.443Z</updated>
+    <updated>2025-05-24T04:11:23.868Z</updated>
     
     
       
@@ -59,19 +59,19 @@
     
     
     
-    <category term="教程" scheme="https://xunchufrd.github.io/blog/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://xunchufrd.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="前端" scheme="https://xunchufrd.github.io/blog/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://xunchufrd.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>个人网站开通了！</title>
-    <link href="https://xunchufrd.github.io/blog/intro/"/>
-    <id>https://xunchufrd.github.io/blog/intro/</id>
+    <link href="https://xunchufrd.github.io/intro/"/>
+    <id>https://xunchufrd.github.io/intro/</id>
     <published>2025-05-04T07:39:22.000Z</published>
-    <updated>2025-05-05T05:11:10.785Z</updated>
+    <updated>2025-05-24T04:11:23.866Z</updated>
     
     
       
@@ -84,10 +84,10 @@
     
     
     
-    <category term="随记" scheme="https://xunchufrd.github.io/blog/categories/%E9%9A%8F%E8%AE%B0/"/>
+    <category term="随记" scheme="https://xunchufrd.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
-    <category term="说明" scheme="https://xunchufrd.github.io/blog/tags/%E8%AF%B4%E6%98%8E/"/>
+    <category term="说明" scheme="https://xunchufrd.github.io/tags/%E8%AF%B4%E6%98%8E/"/>
     
   </entry>
   

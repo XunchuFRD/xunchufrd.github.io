@@ -1,5 +1,5 @@
 // 全局配置
-const spine_model_path = "https://xunchufrd.github.io/blog/spine/models/";
+const spine_model_path = "https://xunchufrd.github.io/spine/models/";
 var MODELS = [ // 模型列表
     "build_char_017_huang_witch_5",
     "build_char_017_huang", // 可用模型列表
