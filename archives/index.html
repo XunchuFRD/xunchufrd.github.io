@@ -20,15 +20,15 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748061111133">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748077051266">
 
-<link rel="stylesheet" href="/css/style.css?v=1748061111133">
+<link rel="stylesheet" href="/css/style.css?v=1748077051266">
 
 
 
 
     
-        <link rel="stylesheet" href="/custom.css?v=1748061111133">
+        <link rel="stylesheet" href="/custom.css?v=1748077051266">
     
 
 
@@ -38,7 +38,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1748061111133"></script>
+<script async src="/js/app.js?v=1748077051267"></script>
 
  
 
@@ -137,7 +137,7 @@
 </div>
 
 
-	<script async src="/js/search.js?v=1748061111135"></script>
+	<script async src="/js/search.js?v=1748077051268"></script>
 
 
 
@@ -359,7 +359,8 @@
         &copy; 2025 CnSywFRD
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        
+        <a href="https://icp.gov.moe/?keyword=20251324" target="_blank">萌ICP备20251324号</a>
+
     </div>
 </div><!-- .nexmoe-drawer --></div><div id="nexmoe-content"><div class="nexmoe-primary"><section class="nexmoe-posts">
     <div class="nexmoe-post">
@@ -473,10 +474,10 @@
             <a href="#nexmoe-content" class="backtop toc-link" aria-label="Back To Top" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
         </div>
     </div>
-</div></div><div id="nexmoe-footer"><!--!--></div></div><div id="pageContent"><div id="nexmoe-search-space"><div class="search-container"><div class="search-header"><div class="search-input-container"><input class="search-input" type="text" placeholder="搜索" onInput="sinput();" data-no-pjax></div><a class="search-close" onclick="sclose();">×</a></div><div class="search-body"></div></div></div></div><div></div><div id="aplayerContent"><meting-js server="netease" type="playlist" id="980612999" fixed="true" order="random" list-max-height="1000px" lrc-type="1" data-pjax-persist></meting-js></div><script>
+</div></div><div id="nexmoe-footer"><!--!--></div></div><div id="nexmoe-search-space"><div class="search-container"><div class="search-header"><div class="search-input-container"><input class="search-input" type="text" placeholder="搜索" onInput="sinput();"></div><a class="search-close" onclick="sclose();">×</a></div><div class="search-body"></div></div></div><div></div><div id="aplayerContent"><meting-js server="netease" type="playlist" id="980612999" fixed="true" order="random" list-max-height="1000px" lrc-type="1" data-pjax-persist></meting-js></div><script>
                             document.addEventListener('DOMContentLoaded', function() {
                                 // 初始化 PJAX
-                                var pjax = new Pjax({"selectors":["#pageContent"],"excludes":"#aplayerContent, .mdui-drawer","timeout":8000});
+                                var pjax = new Pjax({"selectors":["#pageContent"],"excludes":"#aplayerContent","timeout":8000});
 
                                 // 页面切换后保持播放器
                                 document.addEventListener('pjax:end', function() {
@@ -528,7 +529,7 @@
     //mdui_pjax
     document.addEventListener('pjax:success', function() {
       if (typeof mdui !== 'undefined') {
-      $('.mdui-overlay').remove();
+        $('.mdui-overlay').remove();
         mdui.mutation();
       }
     });
