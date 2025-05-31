@@ -1,4 +1,4 @@
-// 全局配置
+(function(){// 全局配置
 const spine_model_path = "/spine/models/";
 var MODELS = [ // 模型列表
     "build_char_017_huang_witch_5",
@@ -235,4 +235,4 @@ function resize() {
 }
 
 // 初始化
-init();
+init();})();
