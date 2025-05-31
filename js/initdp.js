@@ -1,6 +1,6 @@
 // 全局播放器实例
 let globalPlayer = null;
-const defcover = "http://p1.music.126.net/5HvRMPAQOA32fy98D6nVDg==/109951169069655924.jpg";
+const defcover = "https://p1.music.126.net/5HvRMPAQOA32fy98D6nVDg==/109951169069655924.jpg";
 
 // 初始化播放器
 function initPlayer() {
