@@ -97,7 +97,7 @@ function initPlayer() {
         {name: '探故知',artist: '洛天依&乐正绫',url: '/music/探故知-洛天依&乐正绫.mp3',cover:defcover},
         {name: '唐人恋曲',artist: '洛天依',url: '/music/唐人恋曲-洛天依.mp3',cover:defcover},
         {name: '万山载雪',artist: '洛天依',url: '/music/万山载雪-洛天依.mp3',cover:defcover},
-        {name: '期待的不是雪',artist: '洛天依',url: '/music/我期待的不是雪-洛天依.mp3',cover:defcover},
+        {name: '我期待的不是雪',artist: '洛天依',url: '/music/我期待的不是雪-洛天依.mp3',cover:defcover},
         {name: '无虞生花',artist: '洛天依',url: '/music/无虞生花-洛天依.mp3',cover:defcover},
         {name: '西厢寻他',artist: '洛天依',url: '/music/西厢寻他-洛天依.mp3',cover:defcover},
         {name: '羡人间',artist: '乐正绫',url: '/music/羡人间-乐正绫.mp3',cover:defcover},
