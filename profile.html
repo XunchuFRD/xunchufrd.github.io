@@ -13,8 +13,8 @@
 <meta property="og:site_name" content="椛的联络站">
 <meta property="og:description" content="我的没啥好说的，在中中国人，高中在读学生，一名普通Bilibili UP主 事迹2019年第二季度，我认识了一个在B站上做up主的同学，当时给了我不小的震撼因为兴趣相近 那位同学帮我通过了入站答题，当时的题目还是相当有难度的，至少没现在那么智障 5月12日19时12分30秒正式注册了B站号 6月7日发布了第一个视频（内容为修复被Petya影响的计算机），现已删除 第三季度，正式入坑MC（没错竟然这">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-05-31T05:08:02.674Z">
-<meta property="article:modified_time" content="2025-05-31T05:08:02.674Z">
+<meta property="article:published_time" content="2025-06-01T00:48:10.949Z">
+<meta property="article:modified_time" content="2025-06-01T00:48:10.949Z">
 <meta property="article:author" content="CnSywFRD">
 <meta name="twitter:card" content="summary">
 
@@ -22,9 +22,9 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748670844105">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1748738931435">
 
-<link rel="stylesheet" href="/css/style.css?v=1748670844105">
+<link rel="stylesheet" href="/css/style.css?v=1748738931435">
 
 
 
@@ -36,7 +36,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1748670844106"></script>
+<script async src="/js/app.js?v=1748738931435"></script>
 
  
 
@@ -60,7 +60,7 @@
     }
   </style>
 <script src="/js/jquery.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script src="/js/pjax.min.js"></script>
 <script src="/js/APlayer.min.js"></script>
 <script src="/js/initdp.js"></script>
 
@@ -138,23 +138,37 @@
         
         <div class="nexmoe-widget-wrap">
     <div class="nexmoe-widget nexmoe-search">
-        
+        <% if (options.search.type=='engine') { %> 
+            <form id="search_form" action_e="<%= options.search.url %>" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="<%= __('search') %>"></label>
+            </form>
+        <% } else { %>
             <form id="search_form">
-                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="<%= __('search') %>" style="
                     font-size: 15px !important;
                     height: 56px !important;
                     background-image: none;
                 "></label>
             </form>
-         
+        <% } %> 
     </div>
 </div>
 
+<% if (options.search.type == 'local') { %>
+	<%- js_auto_version('js/search') %>
+<%  } %>
 
-	<script async src="/js/search.js?v=1748670844112"></script>
+<% if (options.search.type=='swiftype') { %>
+	<script type="text/javascript">
+		var id='<%-options.search.id%>';
+		(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+		(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+		e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+		})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
 
-
-
+		_st('install', id ,'2.0.0');
+	</script>
+<% } %>
     
         
         <div class="nexmoe-widget-wrap">
@@ -387,10 +401,10 @@
     
     <div class="nexmoe-post-meta">
     <div class="nexmoe-rainbow">
-        <a class="nexmoefont icon-calendar-fill">2025年05月31日</a>
+        <a class="nexmoefont icon-calendar-fill">2025年06月01日</a>
         
         
-    <a><i class="nexmoefont icon-areachart"></i>约993字</a>
+    <a><i class="nexmoefont icon-areachart"></i>约1k字</a>
     <a><i class="nexmoefont icon-time-circle-fill"></i>预计需要3分钟</a>
 
     </div>
@@ -473,7 +487,7 @@
 <li>2025.05.23 修复了网站菜单按钮的bug，发现搜索框在引入pjax后出现bug</li>
 <li>2025.05.24 将博客从<code>/blog/</code>转移到根目录，通过了<a target="_blank" rel="noopener" href="https://icp.gov.moe/">萌备案</a>，尝试使用cloudflare的R2对象存储。获得了免费域名，试图解析到好友的服务器而失败（要求备案才能通过域名访问）</li>
 <li>2025.05.25 在好友服务器上利用cf提供的内网穿透实现了域名访问，浏览速度大幅提升<br><a href="https://blog.xunchufrd.dpdns.org/">主站</a>    <a target="_blank" rel="noopener" href="https://mirror1.xunchufrd.ylcly.dpdns.org/">镜像站</a>    <a target="_blank" rel="noopener" href="https://xunchufrd.github.io/">GithubPages</a></li>
-<li>2025.05.31 取消原先meting.js而换用原生aplayer播放器，创建本地音乐列表；修复了搜索功能的问题</li>
+<li>2025.05.31 取消原先meting.js而换用原生aplayer播放器，创建本地音乐列表；修复了搜索功能的问题。不出意外以后不会有大的页面布局更新</li>
 </ul>
 <h2 id="本站"><a href="#本站" class="headerlink" title="本站"></a>本站</h2><p>恰逢难得的五天假期（2025&#x2F;05&#x2F;01-2025&#x2F;05&#x2F;05），没活硬整，<em><s>反正github的域名不用白不用是吧</s></em></p>
 <p>基于<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>，使用了<a target="_blank" rel="noopener" href="https://docs.nexmoe.com/">Nexmoe</a>主题</p>
@@ -495,7 +509,7 @@
 </div>
   
   
-    <script async src="/js/copy-codeblock.js?v=1748670844041"></script>
+    <script async src="/js/copy-codeblock.js?v=1748738931381"></script>
   
 
   
