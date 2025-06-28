@@ -1,35 +1,33 @@
 <!doctype html>
 <html lang="zh"><head>
-<!-- hexo-inject:begin --><!-- hexo-inject:end --><title>博客添加spine模型避坑指南【FRD 02】 - 椛的联络站</title>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><title>随记 01 - 椛的联络站</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<meta name="description" content="前言心血来潮想给网页右下角添加明日方舟小人模型，我知道明日方舟的模型是基于spine3.8的 在Hexo博客里放一只明日方舟小人的SpineModel中提供了详细教程，发布日期也很近，但我依然在操作过程中遇到了麻烦，因此分享一下避坑经验 注意：本教程需要你拥有spine 3.8.x软件，学习版请自己上网查找 正文我的目录结构 此教程通过scripts文件夹下的文件利用hexo自带的劫持功能实现 除">
+<meta name="description" content="渲染氛围伴着略显烦躁的蝉鸣，广东人民终于迎来了2025年的夏天不知是吵闹的蝉使得夏天燥热，亦或是夏天的炎热让蝉烦恼 我是很喜欢夏天的，冬天自不必说，作为一个不耐冻的广东人，我是真的不知道以后去了北方外省，在冬天应该怎么活虽然我并不准备以后去北方发展（ 万物在春天虽然比冬天更有活力，但是这种活力在广东，冬与春的对比远没有其他地方明显春天容易犯困，并且病菌容易在春天繁殖，导致我一直对春天没有什么好感">
 <meta property="og:type" content="article">
-<meta property="og:title" content="博客添加spine模型避坑指南【FRD 02】">
-<meta property="og:url" content="https://blog.xunchufrd.dpdns.org/spineModel/index.html">
+<meta property="og:title" content="随记 01">
+<meta property="og:url" content="https://blog.xunchufrd.dpdns.org/event01/index.html">
 <meta property="og:site_name" content="椛的联络站">
-<meta property="og:description" content="前言心血来潮想给网页右下角添加明日方舟小人模型，我知道明日方舟的模型是基于spine3.8的 在Hexo博客里放一只明日方舟小人的SpineModel中提供了详细教程，发布日期也很近，但我依然在操作过程中遇到了麻烦，因此分享一下避坑经验 注意：本教程需要你拥有spine 3.8.x软件，学习版请自己上网查找 正文我的目录结构 此教程通过scripts文件夹下的文件利用hexo自带的劫持功能实现 除">
+<meta property="og:description" content="渲染氛围伴着略显烦躁的蝉鸣，广东人民终于迎来了2025年的夏天不知是吵闹的蝉使得夏天燥热，亦或是夏天的炎热让蝉烦恼 我是很喜欢夏天的，冬天自不必说，作为一个不耐冻的广东人，我是真的不知道以后去了北方外省，在冬天应该怎么活虽然我并不准备以后去北方发展（ 万物在春天虽然比冬天更有活力，但是这种活力在广东，冬与春的对比远没有其他地方明显春天容易犯困，并且病菌容易在春天繁殖，导致我一直对春天没有什么好感">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.xunchufrd.dpdns.org/workimg/02/01.png">
-<meta property="og:image" content="https://blog.xunchufrd.dpdns.org/workimg/02/02.png">
-<meta property="article:published_time" content="2025-05-18T06:56:24.000Z">
-<meta property="article:modified_time" content="2025-06-28T03:22:37.526Z">
+<meta property="article:published_time" content="2025-06-28T01:39:39.000Z">
+<meta property="article:modified_time" content="2025-06-28T03:22:36.539Z">
 <meta property="article:author" content="CnSywFRD">
-<meta property="article:tag" content="前端">
 <meta property="article:tag" content="五月">
+<meta property="article:tag" content="六月">
+<meta property="article:tag" content="夏季">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.xunchufrd.dpdns.org/workimg/02/01.png">
 
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1751081182952">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1751081182843">
 
-<link rel="stylesheet" href="/css/style.css?v=1751081182952">
+<link rel="stylesheet" href="/css/style.css?v=1751081182843">
 
 
 
@@ -41,7 +39,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1751081182952"></script>
+<script async src="/js/app.js?v=1751081182843"></script>
 
  
 
@@ -156,7 +154,7 @@
 </div>
 
 
-	<script async src="/js/search.js?v=1751081182953"></script>
+	<script async src="/js/search.js?v=1751081182845"></script>
 
 
 
@@ -393,20 +391,20 @@
   <article>
     
         <div class="nexmoe-post-cover" style="padding-top: NaN%;"> 
-            <img src="/cover/03.png" alt="博客添加spine模型避坑指南【FRD 02】" loading="lazy">
-            <h1>博客添加spine模型避坑指南【FRD 02】</h1>
+            <img src="/cover/06.png" alt="随记 01" loading="lazy">
+            <h1>随记 01</h1>
         </div>
     
     
     <div class="nexmoe-post-meta">
     <div class="nexmoe-rainbow">
-        <a class="nexmoefont icon-calendar-fill">2025年05月18日</a>
+        <a class="nexmoefont icon-calendar-fill">2025年06月28日</a>
         
-            <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+            <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E9%9A%8F%E8%AE%B0/">随记</a>
         
         
-    <a><i class="nexmoefont icon-areachart"></i>约774字</a>
-    <a><i class="nexmoefont icon-time-circle-fill"></i>预计需要2分钟</a>
+    <a><i class="nexmoefont icon-areachart"></i>约2.9k字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>预计需要9分钟</a>
 
     </div>
     
@@ -416,37 +414,36 @@
     
 </div>
 
-    <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>心血来潮想给网页右下角添加明日方舟小人模型，我知道明日方舟的模型是基于spine3.8的</p>
-<p><a target="_blank" rel="noopener" href="https://rimrose.top/SpineModel/">在Hexo博客里放一只明日方舟小人的SpineModel</h1></a>中提供了详细教程，发布日期也很近，但我依然在操作过程中遇到了麻烦，因此分享一下避坑经验</p>
-<p>注意：本教程需要你拥有spine 3.8.x软件，学习版请自己上网查找</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="我的目录结构"><a href="#我的目录结构" class="headerlink" title="我的目录结构"></a>我的目录结构</h2><p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/02/01.png" alt="目录结构" data-caption="目录结构" loading="lazy"></p>
-<p>此教程通过scripts文件夹下的文件利用hexo自带的劫持功能实现</p>
-<p>除了模型文件，其他的在前言部分的文章中均已提供</p>
-<h2 id="文件处理"><a href="#文件处理" class="headerlink" title="文件处理"></a>文件处理</h2><p>models文件夹下面的文件需要去prts.wiki下</p>
-<p>具体方法是加载网页，F12打开开发工具，网络选项卡，点击页面的载入模型按钮，即可看到相关文件，双击即可下载下来<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/02/02.png" alt="开发工具" data-caption="开发工具" loading="lazy"></p>
-<p>避坑点1：2025.04后明日方舟所有的<strong>基建</strong>模型都更新了，atlas对不上png文件，在使用spine解包纹理时会出错，你需要手动缩放png文件，或前往<a target="_blank" rel="noopener" href="https://github.com/isHarryh/Ark-Models/">Arknights Spine Models (Excerpt) | 明日方舟Spine动画小人模型(节选) </a>下载已经处理完毕的png文件</p>
-<p>避坑点2：下载下来的文件名不要改，github下下来的png文件名有可能是修改过的，你需要改回prtswiki下下来的文件名，因为spine的纹理图集和贴图文件名是绑定的</p>
-<p>理论上来讲此时已经可以直接把这些文件扔进去了，但是我这边会出现部分贴图错误的问题</p>
-<p>这种情况要打开spine，最好是<strong>管理员身份</strong>，左上角-纹理解包器，指定一个无中文目录（如果不这样做会遇到未知错误）解包，然后再使用内置的纹理打包器重新打包一遍，得到新的atlas和png文件，覆盖之前下载下来的</p>
-<h2 id="代码处理"><a href="#代码处理" class="headerlink" title="代码处理"></a>代码处理</h2><p>在<code>spine-widget.js</code>中，最好把有关js文件地址修改为自己的<br><code>spine-player.js</code>中</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs json">const spine_model_path = <span class="hljs-string">&quot;/path/spine/models/&quot;</span>;<br></code></pre></td></tr></table></figure>
-<p>修改成你自己的模型路径</p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs json">var MODELS = <span class="hljs-punctuation">[</span> <span class="hljs-comment">// 模型列表</span><br>    <span class="hljs-string">&quot;model1&quot;</span><span class="hljs-punctuation">,</span><span class="hljs-comment">// 可用模型列表</span><br>    <span class="hljs-string">&quot;model2&quot;</span><span class="hljs-punctuation">,</span> <br>    <span class="hljs-string">&quot;model3&quot;</span><span class="hljs-punctuation">,</span><br><span class="hljs-punctuation">]</span>;<br></code></pre></td></tr></table></figure>
-<p>这里需要填入你下载下来的文件名，不需要后缀<br>例如我的是<code>build_char_017_huang_witch_5</code> <code>build_char_017_huang</code> <code>build_char_017_huang_as_1</code> <code>build_char_1040_blaze2</code></p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs json">var MODELS = <span class="hljs-punctuation">[</span> <span class="hljs-comment">// 模型列表</span><br>    <span class="hljs-string">&quot;build_char_017_huang_witch_5&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-string">&quot;build_char_017_huang&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-comment">// 可用模型列表</span><br>    <span class="hljs-string">&quot;build_char_017_huang_as_1&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-string">&quot;build_char_1040_blaze2&quot;</span><span class="hljs-punctuation">,</span><br><span class="hljs-punctuation">]</span>;<br></code></pre></td></tr></table></figure>
-<p>里面的模型每刷新一次就会随机更换</p>
-<h2 id="修复搜索冲突"><a href="#修复搜索冲突" class="headerlink" title="修复搜索冲突"></a>修复搜索冲突</h2><p>可能是<code>spine-player.js</code>中全局变量的问题，导致搜索功能出现问题</p>
-<p>解决方法</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs javascript">(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)&#123;<br>    <span class="hljs-comment">/*原有代码*/</span><br>&#125;)();<br></code></pre></td></tr></table></figure>
-<p>像这样在原有代码基础上，再套一层<code>function()</code>即可</p>
-<h2 id="模型显示大小调整"><a href="#模型显示大小调整" class="headerlink" title="模型显示大小调整"></a>模型显示大小调整</h2><p><code>spine-widget.css</code></p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-attribute">width</span>: <span class="hljs-number">400px</span>;<br><span class="hljs-attribute">height</span>: <span class="hljs-number">400px</span>;<br></code></pre></td></tr></table></figure>
-<p><code>spine-widget.js</code></p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">canvas</span><span class="hljs-selector-class">.width</span> = <span class="hljs-number">400</span>;<br><span class="hljs-selector-tag">canvas</span><span class="hljs-selector-class">.height</span> = <span class="hljs-number">400</span>;<br></code></pre></td></tr></table></figure>
-
-<p>修改成你想要的，默认分别是250x250，300x300</p>
-<p>我建议都调成300x300，我自己用的是400x400</p>
-<p>当然参数怎么调看你的心意，只是太大会很糊</p>
+    <h1 id="渲染氛围"><a href="#渲染氛围" class="headerlink" title="渲染氛围"></a>渲染氛围</h1><p>伴着略显烦躁的蝉鸣，广东人民终于迎来了2025年的夏天<br>不知是吵闹的蝉使得夏天燥热，亦或是夏天的炎热让蝉烦恼</p>
+<p>我是很喜欢夏天的，冬天自不必说，作为一个不耐冻的广东人，我是真的不知道以后去了北方外省，在冬天应该怎么活<br>虽然我并不准备以后去北方发展（</p>
+<p>万物在春天虽然比冬天更有活力，但是这种活力在广东，冬与春的对比远没有其他地方明显<br>春天容易犯困，并且病菌容易在春天繁殖，导致我一直对春天没有什么好感</p>
+<p>秋呢？也许很多人很喜欢秋，喜欢秋天的红叶，喜欢丰收的硕果，喜欢褪去炎热的世界，沐浴在凉飕飕的微风中<br>但是对我来说，秋天意味着开学了（原谅作为学生的我思想就是如此淳朴（（（）<br>不耐冻的我，就连一丝寒意也容忍不了，我很不喜欢添衣服，这太笨拙了</p>
+<p>还是夏天好。兴许是我比较耐热，相比寒冷，我还是更喜欢热。夏天才是最有活力的季节，是万物发展最高峰的季节<br><s><em>当然我也是人，谁受得了七八月的广东？</em></s>今年一号台风来之前一直在抽水汽，差点没给我人整蒸发</p>
+<h1 id="五月"><a href="#五月" class="headerlink" title="五月"></a>五月</h1><p>这个月还是挺快乐的，放假很爽，由于各种各样的原因，基本实现了一周一放（当然只是暂时的）<br>这学期初从气氛死灰一般的班级退下来重点班，整个人都开心了很多<br>本来以为压力会小很多，没想到这里竞争也很激烈，但是至少我的命运不用被别人掌握</p>
+<p>下旬的联考考得比高中以来任何一次排名都低，出成绩的那天心情不是很好。当天回到学校后开红五月，我觉得没意思，既不红（可能有点粉红）又没意思，和同学逛了一个晚上的校园，路上聊了很多，心情稍微好一点。成绩这东西对于学生是很重要，但是我认为只要平时有用功努力，就没有必要为它烦恼，被这个东西影响心情实在是太不值得的。人生路漫长，成绩相比后面的生活还是显得太狭隘‘太渺小了</p>
+<p>28日晚上，广东部分地方有火流星经过，后面的视频显示流星在短时内照亮了整个天空<br>我所在地区可以观测到，其他班的同学有看到的，而我当时还在写作业没看到，但是确实听到了巨响和感受到了震动，<s><em>当时还以为学校的豆腐渣工程塌了</em></s></p>
+<h1 id="六月"><a href="#六月" class="headerlink" title="六月"></a>六月</h1><p>端午假、高考假，虽然很多作业要写，但是总比在学校坐牢好<br>台风假，难得放肆了一次，只写了一点点作业，也只需要写一点点作业</p>
+<p>临近期末，分班的消息四处流传，班主任一开始说重点班有小部分人员流动，不需要太紧张</p>
+<p>接着发生的事情就不会那么愉快了<br>先是某个晚修召集年级前100去开会，本来就料到会废话一个小时，没想到实际情况还要糟糕<br>一开始先是给甜枣吃，说我们都是年级数一数二的学生，接着话锋一转批评我们班和隔壁班（不知道为什么，年级好像和我们两个班有仇一样，我承认我们两个班是有做得不好的地方，但是领导说的每一句话都在添油加醋，就好像是他们意淫出来的一样。就拿跑操的事情来说，某领导一直在夸我之前待的那个班的跑操做法，而实际上他们自行选择路线，搞得像个独立王国一样。而只要他们班主任不在，打球的打球，跑食堂吃早宵的吃早宵。这样的一个反差，就能证明级部平时发号施令没有经过基层调研，这样决策又怎能有决策性呢？）</p>
+<p>两个班的班主任也知道事情究竟是怎么回事，一方面应付领导，一方面护着我们。在这种学校真的很难遇见这么通情理的老师，多么希望他们能一直教我们，可惜级部是绝对不会让这种事情发生的</p>
+<p>再然后图穷匕见，说自己去衡水调研，吧啦吧啦吹了一大堆衡水做法（特别强调跑操）。没问题，毕竟衡水每年上清北的人数是实实在在的，但是人家有什么资源，人家学校的人文环境又如何，对比你自己的实际情况呢？全盘照搬只能死路一条，没有头脑跟在别人的步伐后面，又和驯化的猫狗有何区别？上文我已经说过，级部很多事情不过脑子，不过是它们的一厢情愿和自我高潮。（这位级长印了十几张据说是“偷”过来的衡水学案发给全级做，但是很显然，平时作业都写不完，大部分人是没时间写这些资料的，只是一昧浪费资源罢了）关于我们学校的路线，一年前我已经在QQ空间评价过。再多的批评也无法产生实际作用，我不希望博客这里成为我单纯的戾气宣泄地，也不希望我原本枯燥的学习生活充满了这些本可以没有的烦心事，我不会再深入讨论学校的路线问题</p>
+<p>所谓“不会再深入讨论”，可能是我被高一的学习生活打击，这是有点麻木的想法。我想说的是，即使是这样，我依旧会保持那颗炽热的心，我毕竟是有着热情的青年。作为弱小的社会中的一蜉蝣，我没有反抗这一切的能力，但我有权利我蔑视世界上的一切腐朽和不公，我也势必要这样做。只是再做无畏的批评，只能是我的自我高潮和自我伤害，再没有其他意义</p>
+<p><em>笼中鸟，何时飞？</em></p>
+<p>然后是联考颁奖大会（同时也是期末动员），此时距离联考已经过去了一个月，没错这就是学校的效率<br>领导的闹谈发言自不必多说，最令人恼火的某委书记的发言，他首先提问“我们现在是人人平等的对吧”然后提出“打破大锅饭”“普通班分层教学”“生活环境有所区别”“在普通班也有区分，触碰到你的利益，才能刺激学习上的竞争”。这里你可能觉得语气不是很重，但是这个书记就是这样，用最和缓的语气说出最具攻击性的言语。你只要这几个词语或短句，就能揣摩到不对劲。并且此处我已经尽力弱化了原有语言表达，实际上他说得比这更严重，牵扯到人类社会中的物竞天择，适者生存。</p>
+<p>这当然可能是他脑子一热说的话，后来他见到有人拿出手机就说不要拍摄不要录音。级部也不一定会落实方针。我想强调的是，这么说既在与政治正确抗争，又在反对人道主义。我不知道a member of CP是怎样能说出这种话的，如果CP members都是这样的思想觉悟，那也难怪国际共运陷入低潮了</p>
+<p>关于“物竞天择，适者生存”，达尔文是伟大的人物，进化论在生物领域起到重要影响，这句话是对自然界生物与生物、生物与无机环境关系的正确总结。而把这句话强硬地塞进人文生活是否合适呢？我不做更多评价，历史上它曾在清末对于人的思想起到了解放作用，但它真的应该成为蹂躏其他人的理论依据和以民族主义情绪裹挟民众的方法论吗？至少，你和我都不希望1937年德国的恶魔在21世纪再次将整个世界笼罩于阴影之下。除非你说社达也是社，那我确实没什么可说的了（笑）</p>
+<p>最让我生气的是，它把大会从下午四点开到了六点，去到饭堂一切都晚了，幸好还能买到最后一批面包垫垫肚子（你可能对 我认为吃不上饭比逆天领导发言更重要这件事 感到费解，但是毕竟民以食为天嘛）</p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>会上还说了假期网课等计划，回校不再重复学习。怎么说呢，网课效率肯定比学校低，学习效果没法比，但是学校要这样做又能怎么样呢？我们到底是没有任何办法的</p>
+<p>分班计划也一直再调整，最新的说法是两个班一共要去掉现在的至少13个人</p>
+<p>朝令夕改的级部下，人人都在惶恐自危。这几天一直在努力学习，没有人能断定自己不会被“下放”，气氛明显比我刚来这里时紧张许多，就在我在家撰写这篇文章的时候，有许多人正在学校留宿，认真为期末考试复习</p>
+<p>这个星期我也一直在做题，做到恶心。最近忙的很，所以博客也很长时间没更新了。我有点拖延症，今天终于是强迫自己花几个小时来更新</p>
+<p>所以我选择正常放假</p>
+<p>不到半个月就要进行高一的合格性考试了，但是地理和历史依旧没有复习。学校不重视，老师也和我们说没有必要太担心，只给了合格性考试前 三天时间来复习（对，考完期末试还要回学校复习）</p>
+<p>怎么办？只有天知道</p>
+<h1 id="真的结尾"><a href="#真的结尾" class="headerlink" title="真的结尾"></a>真的结尾</h1><p>本来想着写随记肯定是要分享欢乐的事情的，没想到绝大部分都是负面情绪。如果给你带来不愉快的体验请不要再看了，我很抱歉。后来转念一想，也只有将我真实的感受写出来，才能发挥写随记这件事情本身的意义。如果这里充斥着虚假的情感，那真是害人害己，浪费时间，谋财害命</p>
+<p>但是我也会尽量减少负面情绪的，作为人还是要积极面对生活</p>
+<p>我平时不开心的时候会听歌，曲目都放在本网站了，你感兴趣可以通过左下角播放器播放，也可以通过资源嗅探工具抓取直链下载</p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>愿你即使“在无人问津的阴雨霉湿之地”，不再“漫无目的地向目的地散去”，遇见“哪怕只一瞬的奇迹”<br>——COPY《世末歌者》</p>
 
     
   </article>
@@ -459,12 +456,12 @@
   <div class="nexmoe-post-meta nexmoe-rainbow">
    
     
-        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E4%BA%94%E6%9C%88/" rel="tag">五月</a> <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a>
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E4%BA%94%E6%9C%88/" rel="tag">五月</a> <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E5%85%AD%E6%9C%88/" rel="tag">六月</a> <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E5%A4%8F%E5%AD%A3/" rel="tag">夏季</a>
     
 </div>
   
   
-    <script async src="/js/copy-codeblock.js?v=1751081182789"></script>
+    <script async src="/js/copy-codeblock.js?v=1751081182671"></script>
   
 
   
@@ -482,7 +479,7 @@
             <button class="mdui-fab catalog" style="overflow:unset;">
                 <i class="nexmoefont icon-i-catalog"></i>
                 <div class="nexmoe-toc">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AD%A3%E6%96%87"><span class="toc-number">2.</span> <span class="toc-text">正文</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">2.1.</span> <span class="toc-text">我的目录结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86"><span class="toc-number">2.2.</span> <span class="toc-text">文件处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%A4%84%E7%90%86"><span class="toc-number">2.3.</span> <span class="toc-text">代码处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E5%A4%8D%E6%90%9C%E7%B4%A2%E5%86%B2%E7%AA%81"><span class="toc-number">2.4.</span> <span class="toc-text">修复搜索冲突</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E6%98%BE%E7%A4%BA%E5%A4%A7%E5%B0%8F%E8%B0%83%E6%95%B4"><span class="toc-number">2.5.</span> <span class="toc-text">模型显示大小调整</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B8%B2%E6%9F%93%E6%B0%9B%E5%9B%B4"><span class="toc-number">1.</span> <span class="toc-text">渲染氛围</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E6%9C%88"><span class="toc-number">2.</span> <span class="toc-text">五月</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD%E6%9C%88"><span class="toc-number">3.</span> <span class="toc-text">六月</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E5%B0%BE"><span class="toc-number">4.</span> <span class="toc-text">结尾</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9C%9F%E7%9A%84%E7%BB%93%E5%B0%BE"><span class="toc-number">5.</span> <span class="toc-text">真的结尾</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E"><span class="toc-number">6.</span> <span class="toc-text">写在最后</span></a></li></ol>
                 </div>
             </button>
             

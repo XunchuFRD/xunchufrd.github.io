@@ -6,7 +6,7 @@
   <link href="https://blog.xunchufrd.dpdns.org/atom.xml" rel="self"/>
   
   <link href="https://blog.xunchufrd.dpdns.org/"/>
-  <updated>2025-05-31T05:36:57.533Z</updated>
+  <updated>2025-06-28T03:22:36.539Z</updated>
   <id>https://blog.xunchufrd.dpdns.org/</id>
   
   <author>
@@ -17,11 +17,98 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>随记 01</title>
+    <link href="https://blog.xunchufrd.dpdns.org/event01/"/>
+    <id>https://blog.xunchufrd.dpdns.org/event01/</id>
+    <published>2025-06-28T01:39:39.000Z</published>
+    <updated>2025-06-28T03:22:36.539Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随记" scheme="https://blog.xunchufrd.dpdns.org/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+    <category term="五月" scheme="https://blog.xunchufrd.dpdns.org/tags/%E4%BA%94%E6%9C%88/"/>
+    
+    <category term="六月" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%85%AD%E6%9C%88/"/>
+    
+    <category term="夏季" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%A4%8F%E5%AD%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用cloudflare部署临时邮箱管理平台【FRD04】</title>
+    <link href="https://blog.xunchufrd.dpdns.org/cloudmail/"/>
+    <id>https://blog.xunchufrd.dpdns.org/cloudmail/</id>
+    <published>2025-06-28T00:43:51.000Z</published>
+    <updated>2025-06-28T03:22:26.873Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.xunchufrd.dpdns.org/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="邮箱" scheme="https://blog.xunchufrd.dpdns.org/tags/%E9%82%AE%E7%AE%B1/"/>
+    
+    <category term="黑科技" scheme="https://blog.xunchufrd.dpdns.org/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
+    
+    <category term="六月" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%85%AD%E6%9C%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Win8.1开启Aero并去除水印【FRD03】</title>
+    <link href="https://blog.xunchufrd.dpdns.org/win81aero/"/>
+    <id>https://blog.xunchufrd.dpdns.org/win81aero/</id>
+    <published>2025-06-28T00:20:05.000Z</published>
+    <updated>2025-06-28T03:22:22.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.xunchufrd.dpdns.org/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="六月" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%85%AD%E6%9C%88/"/>
+    
+    <category term="工具" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="美化" scheme="https://blog.xunchufrd.dpdns.org/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客添加spine模型避坑指南【FRD 02】</title>
     <link href="https://blog.xunchufrd.dpdns.org/spineModel/"/>
     <id>https://blog.xunchufrd.dpdns.org/spineModel/</id>
     <published>2025-05-18T06:56:24.000Z</published>
-    <updated>2025-05-31T05:36:57.533Z</updated>
+    <updated>2025-06-28T03:22:37.526Z</updated>
     
     
       
@@ -38,6 +125,8 @@
     
     
     <category term="前端" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="五月" scheme="https://blog.xunchufrd.dpdns.org/tags/%E4%BA%94%E6%9C%88/"/>
     
   </entry>
   
@@ -46,7 +135,7 @@
     <link href="https://blog.xunchufrd.dpdns.org/aplayerWithPjax/"/>
     <id>https://blog.xunchufrd.dpdns.org/aplayerWithPjax/</id>
     <published>2025-05-18T05:51:13.000Z</published>
-    <updated>2025-05-31T08:06:42.602Z</updated>
+    <updated>2025-06-28T01:41:43.123Z</updated>
     
     
       
@@ -63,6 +152,8 @@
     
     
     <category term="前端" scheme="https://blog.xunchufrd.dpdns.org/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="五月" scheme="https://blog.xunchufrd.dpdns.org/tags/%E4%BA%94%E6%9C%88/"/>
     
   </entry>
   
