@@ -24,8 +24,8 @@ var currentAnimation = DEFAULT_ANIMATION; // 当前正在播放的动作
 
 function init() {
     canvas = document.getElementById("spine-canvas");
-    canvas.width = 300;
-    canvas.height = 300;
+    canvas.width = 250;
+    canvas.height = 250;
 
     // 初始化 WebGL 上下文
     var config = { alpha: true, premultipliedAlpha: PREMULTIPLIED_ALPHA };

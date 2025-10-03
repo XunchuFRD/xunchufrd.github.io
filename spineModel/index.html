@@ -27,9 +27,9 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1753690127457">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1759472634752">
 
-<link rel="stylesheet" href="/css/style.css?v=1753690127457">
+<link rel="stylesheet" href="/css/style.css?v=1759472634752">
 
 
 
@@ -41,7 +41,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1753690127457"></script>
+<script async src="/js/app.js?v=1759472634752"></script>
 
  
 
@@ -87,7 +87,7 @@
     }
   </script>
   <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="椛的联络站" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-</head><body class="nexmoe mdui-drawer-body-left"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(/cover/12.png)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="CnSywFRD"><img src="/images/avatar.png" alt="CnSywFRD"></a></div></div></div><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
+</head><body class="nexmoe mdui-drawer-body-left"><div id="nexmoe-background"><div class="nexmoe-bg" style="background-image: url(/cover/96.jpg)"></div><div class="mdui-appbar mdui-shadow-0"><div class="mdui-toolbar"><a class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: &#039;#drawer&#039;, swipe: true}" title="menu"><i class="mdui-icon nexmoefont icon-menu"></i></a><div class="mdui-toolbar-spacer"></div><a class="mdui-btn mdui-btn-icon" href="/" title="CnSywFRD"><img src="/images/avatar.png" alt="CnSywFRD"></a></div></div></div><div id="nexmoe-header"><div class="nexmoe-drawer mdui-drawer" id="drawer">
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="nexmoe-avatar mdui-ripple">
         <a href="/" title="CnSywFRD">
             <img src="/images/avatar.png" alt="CnSywFRD" alt="CnSywFRD">
@@ -156,7 +156,7 @@
 </div>
 
 
-	<script async src="/js/search.js?v=1753690127458"></script>
+	<script async src="/js/search.js?v=1759472634754"></script>
 
 
 
@@ -419,11 +419,11 @@
     <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>心血来潮想给网页右下角添加明日方舟小人模型，我知道明日方舟的模型是基于spine3.8的</p>
 <p><a target="_blank" rel="noopener" href="https://rimrose.top/SpineModel/">在Hexo博客里放一只明日方舟小人的SpineModel</h1></a>中提供了详细教程，发布日期也很近，但我依然在操作过程中遇到了麻烦，因此分享一下避坑经验</p>
 <p>注意：本教程需要你拥有spine 3.8.x软件，学习版请自己上网查找</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="我的目录结构"><a href="#我的目录结构" class="headerlink" title="我的目录结构"></a>我的目录结构</h2><p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/02/01.png" alt="目录结构" data-caption="目录结构" loading="lazy"></p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="我的目录结构"><a href="#我的目录结构" class="headerlink" title="我的目录结构"></a>我的目录结构</h2><p><img src="/workimg/02/01.png" alt="目录结构"></p>
 <p>此教程通过scripts文件夹下的文件利用hexo自带的劫持功能实现</p>
 <p>除了模型文件，其他的在前言部分的文章中均已提供</p>
 <h2 id="文件处理"><a href="#文件处理" class="headerlink" title="文件处理"></a>文件处理</h2><p>models文件夹下面的文件需要去prts.wiki下</p>
-<p>具体方法是加载网页，F12打开开发工具，网络选项卡，点击页面的载入模型按钮，即可看到相关文件，双击即可下载下来<br><img onerror="imgOnError(this);" data-fancybox="gallery" src="/workimg/02/02.png" alt="开发工具" data-caption="开发工具" loading="lazy"></p>
+<p>具体方法是加载网页，F12打开开发工具，网络选项卡，点击页面的载入模型按钮，即可看到相关文件，双击即可下载下来<br><img src="/workimg/02/02.png" alt="开发工具"></p>
 <p>避坑点1：2025.04后明日方舟所有的<strong>基建</strong>模型都更新了，atlas对不上png文件，在使用spine解包纹理时会出错，你需要手动缩放png文件，或前往<a target="_blank" rel="noopener" href="https://github.com/isHarryh/Ark-Models/">Arknights Spine Models (Excerpt) | 明日方舟Spine动画小人模型(节选) </a>下载已经处理完毕的png文件</p>
 <p>避坑点2：下载下来的文件名不要改，github下下来的png文件名有可能是修改过的，你需要改回prtswiki下下来的文件名，因为spine的纹理图集和贴图文件名是绑定的</p>
 <p>理论上来讲此时已经可以直接把这些文件扔进去了，但是我这边会出现部分贴图错误的问题</p>
@@ -464,7 +464,7 @@
 </div>
   
   
-    <script async src="/js/copy-codeblock.js?v=1753690127081"></script>
+    <script async src="/js/copy-codeblock.js?v=1759472634554"></script>
   
 
   
@@ -515,8 +515,8 @@
       spineScript.onload = function() {
         // Spine 运行时库加载完成后，初始化 Spine 小部件
         const canvas = document.getElementById("spine-canvas");
-        canvas.width = 400;
-        canvas.height = 400;
+        canvas.width = 200;
+        canvas.height = 200;
 
         // 初始化 Spine 动画逻辑
         const spineLogicScript = document.createElement("script");
