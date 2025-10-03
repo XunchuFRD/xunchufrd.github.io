@@ -153,7 +153,32 @@ function initPlayer() {
         {name: '觅龙',artist: '乐正绫',url: '/music/觅龙-乐正绫.mp3',cover:defcover},
         {name: '画离弦',artist: '洛天依',url: '/music/画离弦-洛天依.mp3',cover:defcover},
         {name: '千灯愿',artist: '洛天依',url: '/music/千灯愿-洛天依.mp3',cover:defcover},
-        {name: '聘书',artist: '洛天依&乐正绫',url: '/music/聘书-洛天依&乐正绫.mp3',cover:defcover}
+        {name: '火红的撒日朗',artist: '洛天依',url: '/music/火红的撒日朗-洛天依.mp3',cover:defcover},
+        {name: '回马枪',artist: '洛天依',url: '/music/回马枪-洛天依.mp3',cover:defcover},
+        {name: '柑橘',artist: '初音ミク',url: '/music/柑橘-初音ミク.mp3',cover:defcover},
+        {name: '四海五洲',artist: '乐正绫',url: '/music/四海五洲-乐正绫.mp3',cover:defcover},
+        {name: '下山',artist: '洛天依',url: '/music/下山-洛天依.mp3',cover:defcover},
+        {name: '出山',artist: '洛天依',url: '/music/出山-洛天依.mp3',cover:defcover},
+        {name: '凉雨',artist: '洛天依&乐正绫',url: '/music/凉雨-洛天依&乐正绫.mp3',cover:defcover},
+        {name: '白鸟过河滩',artist: '洛天依',url: '/music/白鸟过河滩-洛天依.mp3',cover:defcover},
+        {name: '九张机',artist: '洛天依',url: '/music/九张机-洛天依.mp3',cover:defcover},
+        {name: '春涧',artist: '洛天依',url: '/music/春涧-洛天依.mp3',cover:defcover},
+        {name: '钗头凤',artist: '洛天依',url: '/music/钗头凤-洛天依.mp3',cover:defcover},
+        {name: '彼岸花开无人归',artist: '洛天依',url: '/music/彼岸花开无人归-洛天依.mp3',cover:defcover},
+        {name: '一花一剑',artist: '洛天依',url: '/music/一花一剑-洛天依.mp3',cover:defcover},
+        {name: '大天蓬',artist: '洛天依',url: '/music/大天蓬-洛天依.mp3',cover:defcover},
+        {name: '关山酒',artist: '洛天依',url: '/music/关山酒-洛天依.mp3',cover:defcover},
+        {name: '死亡公告',artist: '洛天依',url: '/music/死亡公告-洛天依.mp3',cover:defcover},
+        {name: '过春痕',artist: '洛天依',url: '/music/过春痕-洛天依.mp3',cover:defcover},
+        {name: '年轮',artist: '洛天依',url: '/music/年轮-洛天依.mp3',cover:defcover},
+        {name: '绿窗记',artist: '洛天依',url: '/music/绿窗记-洛天依.mp3',cover:defcover},
+        {name: '拜月',artist: '洛天依&乐正绫',url: '/music/拜月-洛天依&乐正绫.mp3',cover:defcover},
+        {name: '请不要带我走',artist: '洛天依',url: '/music/请不要带我走-洛天依.mp3',cover:defcover},
+        {name: '不老不死',artist: '乐正绫',url: '/music/不老不死-乐正绫.mp3',cover:defcover},
+        {name: '灯花挽月',artist: '洛天依&乐正绫',url: '/music/灯花挽月-洛天依&乐正绫.mp3',cover:defcover},
+        {name: '燕无歇',artist: '洛天依',url: '/music/燕无歇-洛天依.mp3',cover:defcover},
+        {name: '星河叹',artist: '洛天依',url: '/music/星河叹-洛天依.mp3',cover:defcover},
+        {name: '茶花开了',artist: '洛天依',url: '/music/茶花开了-洛天依.mp3',cover:defcover}
       ]
     });
   }
