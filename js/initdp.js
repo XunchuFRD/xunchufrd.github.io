@@ -153,9 +153,9 @@ function initPlayer() {
         {name: '觅龙',artist: '乐正绫',url: '/music/觅龙-乐正绫.mp3',cover:defcover},
         {name: '画离弦',artist: '洛天依',url: '/music/画离弦-洛天依.mp3',cover:defcover},
         {name: '千灯愿',artist: '洛天依',url: '/music/千灯愿-洛天依.mp3',cover:defcover},
+        {name: '聘书',artist: '洛天依&乐正绫',url: '/music/聘书-洛天依&乐正绫.mp3',cover:defcover},
         {name: '火红的撒日朗',artist: '洛天依',url: '/music/火红的撒日朗-洛天依.mp3',cover:defcover},
         {name: '回马枪',artist: '洛天依',url: '/music/回马枪-洛天依.mp3',cover:defcover},
-        {name: '柑橘',artist: '初音ミク',url: '/music/柑橘-初音ミク.mp3',cover:defcover},
         {name: '四海五洲',artist: '乐正绫',url: '/music/四海五洲-乐正绫.mp3',cover:defcover},
         {name: '下山',artist: '洛天依',url: '/music/下山-洛天依.mp3',cover:defcover},
         {name: '出山',artist: '洛天依',url: '/music/出山-洛天依.mp3',cover:defcover},
@@ -178,6 +178,15 @@ function initPlayer() {
         {name: '灯花挽月',artist: '洛天依&乐正绫',url: '/music/灯花挽月-洛天依&乐正绫.mp3',cover:defcover},
         {name: '燕无歇',artist: '洛天依',url: '/music/燕无歇-洛天依.mp3',cover:defcover},
         {name: '星河叹',artist: '洛天依',url: '/music/星河叹-洛天依.mp3',cover:defcover},
+        {name: '伯虎说',artist: '洛天依',url: '/music/伯虎说-洛天依.mp3',cover:defcover},
+        {name: '不待月',artist: '洛天依&乐正绫',url: '/music/不待月-洛天依&乐正绫.mp3',cover:defcover},
+        {name: '海盗少女',artist: '星尘Infinity',url: '/music/海盗少女-星尘Infinity.mp3',cover:defcover},
+        {name: '空心人札记',artist: '星尘Infinity',url: '/music/空心人札记-星尘Infinity.mp3',cover:defcover},
+        {name: '理想乡的葬礼',artist: '洛天依',url: '/music/理想乡的葬礼-洛天依.mp3',cover:defcover},
+        {name: '思华年',artist: '洛天依',url: '/music/思华年-洛天依.mp3',cover:defcover},
+        {name: '有山有海有你',artist: '洛天依',url: '/music/有山有海有你-洛天依.mp3',cover:defcover},
+        {name: '与岁月书',artist: '乐正绫',url: '/music/与岁月书-乐正绫.mp3',cover:defcover},
+        {name: '柑橘',artist: '初音ミク',url: '/music/柑橘-初音ミク.mp3',cover:defcover},
         {name: '茶花开了',artist: '洛天依',url: '/music/茶花开了-洛天依.mp3',cover:defcover}
       ]
     });
