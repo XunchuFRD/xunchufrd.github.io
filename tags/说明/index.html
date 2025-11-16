@@ -20,9 +20,9 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1759555987268">
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1763273206877">
 
-<link rel="stylesheet" href="/css/style.css?v=1759555987268">
+<link rel="stylesheet" href="/css/style.css?v=1763273206877">
 
 
 
@@ -34,7 +34,7 @@
 <script src="/lib/lax.min.js" async></script>
 
 
-<script async src="/js/app.js?v=1759555987268"></script>
+<script async src="/js/app.js?v=1763273206877"></script>
 
  
 
@@ -87,8 +87,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>7</div>
-        <div><span>标签</span>11</div>
+        <div><span>文章</span>8</div>
+        <div><span>标签</span>17</div>
         <div><span>分类</span>2</div>
     </div>
     <div id="mlist-container">
@@ -136,23 +136,37 @@
         
         <div class="nexmoe-widget-wrap">
     <div class="nexmoe-widget nexmoe-search">
-        
+        <% if (options.search.type=='engine') { %> 
+            <form id="search_form" action_e="<%= options.search.url %>" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="<%= __('search') %>"></label>
+            </form>
+        <% } else { %>
             <form id="search_form">
-                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="搜索" style="
+                <label><input class="st-default-search-input" id="search_value" name="q" type="search" placeholder="<%= __('search') %>" style="
                     font-size: 15px !important;
                     height: 56px !important;
                     background-image: none;
                 "></label>
             </form>
-         
+        <% } %> 
     </div>
 </div>
 
+<% if (options.search.type == 'local') { %>
+	<%- js_auto_version('js/search') %>
+<%  } %>
 
-	<script async src="/js/search.js?v=1759555987269"></script>
+<% if (options.search.type=='swiftype') { %>
+	<script type="text/javascript">
+		var id='<%-options.search.id%>';
+		(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+		(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+		e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+		})(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
 
-
-
+		_st('install', id ,'2.0.0');
+	</script>
+<% } %>
     
         
         <div class="nexmoe-widget-wrap">
@@ -238,7 +252,7 @@
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/随记/">随记</a>
-          <span class="category-list-count">3</span>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -253,7 +267,7 @@
         
   <div class="nexmoe-widget-wrap">
     <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/tags/%E4%B8%83%E6%9C%88/" style="font-size: 10px;">七月</a> <a href="/tags/%E4%BA%94%E6%9C%88/" style="font-size: 20px;">五月</a> <a href="/tags/%E5%81%87%E6%9C%9F/" style="font-size: 10px;">假期</a> <a href="/tags/%E5%85%AD%E6%9C%88/" style="font-size: 20px;">六月</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 15px;">前端</a> <a href="/tags/%E5%A4%8F%E5%AD%A3/" style="font-size: 15px;">夏季</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 10px;">工具</a> <a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/tags/%E8%AF%B4%E6%98%8E/" style="font-size: 10px;">说明</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px;">邮箱</a> <a href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" style="font-size: 10px;">黑科技</a>
+      <a href="/tags/%E4%B8%83%E6%9C%88/" style="font-size: 10px;">七月</a> <a href="/tags/%E4%B9%9D%E6%9C%88/" style="font-size: 10px;">九月</a> <a href="/tags/%E4%BA%94%E6%9C%88/" style="font-size: 20px;">五月</a> <a href="/tags/%E5%81%87%E6%9C%9F/" style="font-size: 15px;">假期</a> <a href="/tags/%E5%85%AB%E6%9C%88/" style="font-size: 10px;">八月</a> <a href="/tags/%E5%85%AD%E6%9C%88/" style="font-size: 20px;">六月</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 15px;">前端</a> <a href="/tags/%E5%8D%81%E4%B8%80%E6%9C%88/" style="font-size: 10px;">十一月</a> <a href="/tags/%E5%8D%81%E6%9C%88/" style="font-size: 10px;">十月</a> <a href="/tags/%E5%A4%8F%E5%AD%A3/" style="font-size: 20px;">夏季</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 10px;">工具</a> <a href="/tags/%E6%A0%A1%E5%9B%AD/" style="font-size: 10px;">校园</a> <a href="/tags/%E7%A7%8B%E5%AD%A3/" style="font-size: 10px;">秋季</a> <a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 10px;">美化</a> <a href="/tags/%E8%AF%B4%E6%98%8E/" style="font-size: 10px;">说明</a> <a href="/tags/%E9%82%AE%E7%AE%B1/" style="font-size: 10px;">邮箱</a> <a href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" style="font-size: 10px;">黑科技</a>
     </div>
     
   </div>
@@ -307,7 +321,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/">2025</a><span class="archive-list-count">7</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/">2025</a><span class="archive-list-count">8</span></li></ul>
     </div>
   </div>
 
@@ -320,6 +334,10 @@
     <h3 class="nexmoe-widget-title">最新文章</h3>
     <div class="nexmoe-widget">
       <ul>
+        
+          <li>
+            <a href="/event03/">随记 03</a>
+          </li>
         
           <li>
             <a href="/event02/">随记 02</a>
@@ -335,10 +353,6 @@
         
           <li>
             <a href="/win81aero/">Win8.1开启Aero并去除水印【FRD03】</a>
-          </li>
-        
-          <li>
-            <a href="/spineModel/">博客添加spine模型避坑指南【FRD 02】</a>
           </li>
         
       </ul>
